@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Act\ -\ do\ whatever\ the\ Lobster\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.params=
+comment1.target=void\ lookForCrab()
+comment1.text=\r\n\ Method\ to\ check\ if\ lobster\ is\ touching\ a\ crab.\ If\ it\ is\ touching\ then\r\n\ lobster\ eats\ crab.\ After\ eating\ crab\:\ play\ sound\ and\ stop\ program.\r\n
+comment2.params=
+comment2.target=void\ turnAtEdge()
+comment2.text=\r\n\ Method\ to\ check\ if\ Lobster\ is\ at\ edge\ of\ the\ world.\r\n\ If\ Lobster\ is\ at\ the\ edge,\ he\ will\ then\ turn.\r\n
+comment3.params=
+comment3.target=void\ randomTurn()
+comment3.text=\r\n\ Method\ to\ randomly\ turn\ the\ lobster\ a\ small\ amount.\ This\ is\ to\ make\ the\ \r\n\ lobster\ move\ in\ a\ line\ that\ is\ not\ completely\ straight.\r\n
+numComments=4

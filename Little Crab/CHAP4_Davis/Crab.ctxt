@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Crab()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ lookForWorm()
+comment2.text=\r\n\ Method\ to\ check\ if\ crab\ is\ touching\ a\ worm.\ If\ it\ is\ touching\ then\r\n\ crab\ eats\ worm.\ Also\ plays\ sound\ when\ eating\ worm.\r\n
+comment3.params=
+comment3.target=void\ checkKeyPress()
+comment3.text=\r\n\ Method\ to\ check\ the\ key\ pressed\ to\ turn\ the\ crab\ a\ small\ amount.\ Crab\ can\ turn\r\n\ right\ or\ left\ using\ the\ directional\ arrows.\r\n
+comment4.params=
+comment4.target=void\ switchImage()
+comment4.text=\r\n\ Method\ to\ switch\ image\ for\ the\ animation\ of\ the\ crab\ moving\ its\ legs.\r\n\ Animation\ Counter\ makes\ sure\ crabs\ legs\ don't\ move\ too\ fast.\r\n
+numComments=5
