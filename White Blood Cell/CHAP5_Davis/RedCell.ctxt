@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RedCell()
+comment0.text=\r\n\ Constructor\ for\ the\ Red\ Blood\ cell\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Moves\ slowly\ from\ right\ to\ left\ on\ the\ screen.\r\n
+numComments=2

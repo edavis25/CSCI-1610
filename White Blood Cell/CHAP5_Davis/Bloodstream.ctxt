@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bloodstream()
+comment0.text=\r\n\ Constructor\:\ Set\ up\ the\ staring\ objects.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Create\ new\ floating\ objects\ at\ irregular\ intervals.\ Introduce\ new\ Lining\ at\ the\ \r\n\ right\ side\ of\ the\ screen\ for\ animation.\r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ In\ this\ case\:\ Create\r\n\ a\ white\ blood\ cell\ and\ the\ lining\ at\ the\ edge\ of\ the\ blood\ stream.\r\n
+comment3.params=points
+comment3.target=void\ addScore(int)
+comment3.text=\r\n\ Method\ for\ adding\ and\ keeping\ score.\r\n
+comment4.params=
+comment4.target=void\ showScore()
+comment4.text=\r\n\ Method\ for\ showing\ the\ Score\r\n
+numComments=5
