@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.params=text
 comment0.target=PointLabel(java.lang.String)
+comment0.text=\ CONSTRUCTOR\:\ Creates\ a\ variable\ pointLabel\ by\ creating\ a\ new\ greenfoot\ image\ and\ then\r\n\ draws\ the\ string\ (from\ the\ parameter\ 'text')\ onto\ the\ image.\ Creates\ the\ image\ and\ displays\r\n\ whatever\ string\ is\ in\ the\ parameter.\r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ A\ point\ label\ will\ be\ created\ whenever\ a\ scoring\ event\ occurs.\ The\ delay\ counter\ allows\ the\ \r\n\ point\ label\ to\ linger\ for\ a\ few\ seconds\ before\ it\ removes\ itself\ from\ the\ world.\r\n

@@ -11,9 +11,10 @@ public class PointLabel extends Actor
     private int delayCounter;
     
     
-    // *** CONSTRUCTOR: Creates a variable pointLabel by creating a new greenfoot image and then
-    // draws the string (from the parameter 'text') onto the image. Creates the image and displays
-    // whatever string is in the parameter.
+    /** CONSTRUCTOR: Creates a variable pointLabel by creating a new greenfoot image and then
+     * draws the string (from the parameter 'text') onto the image. Creates the image and displays
+     * whatever string is in the parameter.
+     */
     public PointLabel(String text)
     {
         GreenfootImage pointLabel = new GreenfootImage(50, 50);    // <--Creating variable
