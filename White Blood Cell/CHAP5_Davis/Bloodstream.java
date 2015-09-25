@@ -16,7 +16,7 @@ public class Bloodstream extends World
     public Bloodstream()
     {    
         super(780, 360, 1); 
-        setPaintOrder(Border.class, WhiteCell.class); // Prioritizing the top-most objects in the layering order.
+        setPaintOrder(Border.class, PointLabel.class, WhiteCell.class); // Prioritizing the top-most objects in the layering order.
         score = 0;
         prepare();
         showScore();

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=text
+comment0.target=PointLabel(java.lang.String)
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ A\ point\ label\ will\ be\ created\ whenever\ a\ scoring\ event\ occurs.\ The\ delay\ counter\ allows\ the\ \r\n\ point\ label\ to\ linger\ for\ a\ few\ seconds\ before\ it\ removes\ itself\ from\ the\ world.\r\n
+numComments=2

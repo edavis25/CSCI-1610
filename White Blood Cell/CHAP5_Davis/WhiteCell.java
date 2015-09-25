@@ -65,7 +65,8 @@ public class WhiteCell extends Actor
             Greenfoot.playSound("slurp.wav");
                       
             bloodstream.addScore(20);
-            bloodstream.showText("+15", getX(), getY());
+            bloodstream.addObject(new PointLabel("+20"), getX(), getY());
+           
         }
         
         // If we are touching a Virus, we lose 100 points :(
@@ -74,6 +75,9 @@ public class WhiteCell extends Actor
             removeTouching(Virus.class);
             
             bloodstream.addScore(-100);
+            // With casting earlier, use the variable bloodstream to call the world method
+            // of adding a new objectg and pass the string for parameter
+            bloodstream.addObject(new PointLabel("-100"), getX(), getY());
         }
     }
 }
