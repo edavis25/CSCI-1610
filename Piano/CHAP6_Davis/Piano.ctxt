@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Piano()
+comment0.text=\r\n\ Make\ the\ piano.\r\n
+comment1.params=
+comment1.target=void\ makeKeys()
+comment1.text=\r\n\ Method\ to\ create\ the\ keys\ for\ the\ piano.\ Called\ from\ Piano\ constructor.\r\n\ Uses\ a\ While\ loop\ to\ create\ the\ keys.\ The\ keys\ themselves\ are\ 280\ pixels\r\n\ height\ by\ 63\ pixels\ wide.\ Sets\ the\ creation\ of\ a\ Key\ into\ a\ variable\ and\r\n\ then\ uses\ the\ 'i'\ value\ to\ find\ appropriate\ Key\ name\ and\ Sound\ from\ the\ \r\n\ arrays\ defined\ above.\r\n
+numComments=2

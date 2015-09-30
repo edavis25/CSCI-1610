@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=keyName\ soundFile\ img1\ img2
+comment0.target=Key(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Create\ a\ new\ key.\ Set\ Up\ and\ Down\ image\ to\ img1\ &\ img2\ respectfully.\r\n\ Initialize\ image\ to\ Up\ image\ and\ isDown\ to\ false.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Do\ the\ action\ for\ this\ key.\r\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\r\n\ Method\ for\ playing\ the\ notes\ on\ a\ key\r\n
+numComments=3
