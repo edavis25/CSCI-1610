@@ -3,12 +3,18 @@ import greenfoot.*;
 /**
  * A floating leaf that blows across the screen.
  *
+ * @author Eric Davis
+ * @version 1.0
  */
 public class Leaf extends Actor
 {
+    
+    // *** DECLARATIONS ***
     private int speed;
     GreenfootImage img1 = new GreenfootImage("leaf-green.png");
     GreenfootImage img2 = new GreenfootImage("leaf-brown.png");
+    
+    
     
     /**
      * Create the leaf.
@@ -20,23 +26,29 @@ public class Leaf extends Actor
         setRotation(Greenfoot.getRandomNumber(360));
     }
     
+    
+    
     /**
-     * Move around.
+     * Move around. Turns around after hitting the edge.
      */
     public void act() 
     {
+        // Turns around when hitting the edge of the world.
         if (isAtEdge()) 
         {
             turn(180);
         }
         
         move(speed);
-        
+                
+        // Turn the leaves a little bit so they dont look stagnant.
         if (Greenfoot.getRandomNumber(100) < 50) 
         {
             turn(Greenfoot.getRandomNumber(5) - 2);   // -2 to 2
         }
     }
+    
+    
     
     /**
      * Change the image to another leaf image. This toggles back and
