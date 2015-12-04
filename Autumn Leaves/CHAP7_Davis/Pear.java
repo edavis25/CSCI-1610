@@ -30,7 +30,7 @@ public class Pear extends Actor
      * Instructions to move the pear. When the block hits the edge of the world, the pear moves 20
      * pixels. The nested if is needed to keep the pear from getting stuck on the edge. Without
      * the 2nd IF, the pear will get stuck on the edge because isAtEdge will forever be true and
-     * delta will just keep flipping between the 2 values and thus will forever stay in place.
+     * delta will just keep flipping between the 2 values causing the pear to forever stay on edge.
      */
     private void move()
     {
